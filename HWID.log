@@ -1,0 +1,3735 @@
+System check:
+Description: Windows(R) Operating System, TIMEBASED_EVAL channel
+BuildLabEx: 17133.1
+Architecture: x64
+PartialKey: M98W7
+Edition: EnterpriseNEval
+Status Licensed
+
+Starting activation at 24 May 2019 10:52:51...
+
+Installing key ...
+
+Error: option ipk needs <Product Key>
+Windows Software Licensing Management Tool
+Usage: slmgr.vbs [MachineName [User Password]] [<Option>]
+           MachineName: Name of remote machine (default is local machine)
+           User:        Account with required privilege on remote machine
+           Password:    password for the previous account
+
+Global Options:
+/ipk <Product Key>
+    Install product key (replaces existing key)
+/ato [Activation ID]
+    Activate Windows
+/dli [Activation ID | All]
+    Display license information (default: current license)
+/dlv [Activation ID | All]
+    Display detailed license information (default: current license)
+/xpr [Activation ID]
+    Expiration date for current license state
+
+Advanced Options:
+/cpky 
+    Clear product key from the registry (prevents disclosure attacks)
+/ilc <License file>
+    Install license
+/rilc 
+    Re-install system license files
+/rearm 
+    Reset the licensing status of the machine
+/rearm-app <Application ID>
+    Reset the licensing status of the given app
+/rearm-sku <Activation ID>
+    Reset the licensing status of the given sku
+/upk [Activation ID]
+    Uninstall product key
+
+/dti [Activation ID]
+    Display Installation ID for offline activation
+/atp <Confirmation ID> [Activation ID]
+    Activate product with user-provided Confirmation ID
+
+Volume Licensing: Key Management Service (KMS) Client Options:
+/skms <Name[:Port] | : port> [Activation ID]
+    Set the name and/or the port for the KMS computer this machine will use. IPv6 address must be specified in the format [hostname]:port
+/ckms [Activation ID]
+    Clear name of KMS computer used (sets the port to the default)
+/skms-domain <FQDN> [Activation ID]
+    Set the specific DNS domain in which all KMS SRV records can be found. This setting has no effect if the specific single KMS host is set via /skms option.
+/ckms-domain [Activation ID]
+    Clear the specific DNS domain in which all KMS SRV records can be found. The specific KMS host will be used if set via /skms. Otherwise default KMS auto-discovery will be used.
+/skhc 
+    Enable KMS host caching
+/ckhc 
+    Disable KMS host caching
+
+Volume Licensing: Token-based Activation Options:
+/lil 
+    List installed Token-based Activation Issuance Licenses
+/ril <ILID> <ILvID>
+    Remove installed Token-based Activation Issuance License
+/ltc 
+    List Token-based Activation Certificates
+/fta <Certificate Thumbprint> [<PIN>]
+    Force Token-based Activation
+
+Volume Licensing: Key Management Service (KMS) Options:
+/sprt <Port>
+    Set TCP port KMS will use to communicate with clients
+/sai <Activation Interval>
+    Set interval (minutes) for unactivated clients to attempt KMS connection. The activation interval must be between 15 minutes (min) and 30 days (max) although the default (2 hours) is recommended.
+/sri <Renewal Interval>
+    Set renewal interval (minutes) for activated clients to attempt KMS connection. The renewal interval must be between 15 minutes (min) and 30 days (max) although the default (7 days) is recommended.
+/sdns 
+    Enable DNS publishing by KMS (default)
+/cdns 
+    Disable DNS publishing by KMS
+/spri 
+    Set KMS priority to normal (default)
+/cpri 
+    Set KMS priority to low
+/act-type [Activation-Type] [Activation ID]
+    Set activation type to 1 (for AD) or 2 (for KMS) or 3 (for Token) or 0 (for all).
+
+Volume Licensing: Active Directory (AD) Activation Options:
+/ad-activation-online <Product Key> [Activation Object name]
+    Activate AD (Active Directory) forest with user-provided product key
+/ad-activation-get-iid <Product Key>
+    Display Installation ID for AD (Active Directory) forest
+/ad-activation-apply-cid <Product Key> <Confirmation ID> [Activation Object name]
+    Activate AD (Active Directory) forest with user-provided product key and Confirmation ID
+/ao-list 
+    Display Activation Objects in AD (Active Directory)
+/del-ao <Activation Object DN | Activation Object RDN>
+    Delete Activation Objects in AD (Active Directory) for user-provided Activation Object
+
+
+
+System check:
+Description: Windows(R) Operating System, TIMEBASED_EVAL channel
+BuildLabEx: 17133.1
+Architecture: x64
+PartialKey: M98W7
+Edition: EnterpriseNEval
+Status Licensed
+
+Starting activation at 24 May 2019 10:53:16...
+
+Installing key ...
+
+Error: option ipk needs <Product Key>
+Windows Software Licensing Management Tool
+Usage: slmgr.vbs [MachineName [User Password]] [<Option>]
+           MachineName: Name of remote machine (default is local machine)
+           User:        Account with required privilege on remote machine
+           Password:    password for the previous account
+
+Global Options:
+/ipk <Product Key>
+    Install product key (replaces existing key)
+/ato [Activation ID]
+    Activate Windows
+/dli [Activation ID | All]
+    Display license information (default: current license)
+/dlv [Activation ID | All]
+    Display detailed license information (default: current license)
+/xpr [Activation ID]
+    Expiration date for current license state
+
+Advanced Options:
+/cpky 
+    Clear product key from the registry (prevents disclosure attacks)
+/ilc <License file>
+    Install license
+/rilc 
+    Re-install system license files
+/rearm 
+    Reset the licensing status of the machine
+/rearm-app <Application ID>
+    Reset the licensing status of the given app
+/rearm-sku <Activation ID>
+    Reset the licensing status of the given sku
+/upk [Activation ID]
+    Uninstall product key
+
+/dti [Activation ID]
+    Display Installation ID for offline activation
+/atp <Confirmation ID> [Activation ID]
+    Activate product with user-provided Confirmation ID
+
+Volume Licensing: Key Management Service (KMS) Client Options:
+/skms <Name[:Port] | : port> [Activation ID]
+    Set the name and/or the port for the KMS computer this machine will use. IPv6 address must be specified in the format [hostname]:port
+/ckms [Activation ID]
+    Clear name of KMS computer used (sets the port to the default)
+/skms-domain <FQDN> [Activation ID]
+    Set the specific DNS domain in which all KMS SRV records can be found. This setting has no effect if the specific single KMS host is set via /skms option.
+/ckms-domain [Activation ID]
+    Clear the specific DNS domain in which all KMS SRV records can be found. The specific KMS host will be used if set via /skms. Otherwise default KMS auto-discovery will be used.
+/skhc 
+    Enable KMS host caching
+/ckhc 
+    Disable KMS host caching
+
+Volume Licensing: Token-based Activation Options:
+/lil 
+    List installed Token-based Activation Issuance Licenses
+/ril <ILID> <ILvID>
+    Remove installed Token-based Activation Issuance License
+/ltc 
+    List Token-based Activation Certificates
+/fta <Certificate Thumbprint> [<PIN>]
+    Force Token-based Activation
+
+Volume Licensing: Key Management Service (KMS) Options:
+/sprt <Port>
+    Set TCP port KMS will use to communicate with clients
+/sai <Activation Interval>
+    Set interval (minutes) for unactivated clients to attempt KMS connection. The activation interval must be between 15 minutes (min) and 30 days (max) although the default (2 hours) is recommended.
+/sri <Renewal Interval>
+    Set renewal interval (minutes) for activated clients to attempt KMS connection. The renewal interval must be between 15 minutes (min) and 30 days (max) although the default (7 days) is recommended.
+/sdns 
+    Enable DNS publishing by KMS (default)
+/cdns 
+    Disable DNS publishing by KMS
+/spri 
+    Set KMS priority to normal (default)
+/cpri 
+    Set KMS priority to low
+/act-type [Activation-Type] [Activation ID]
+    Set activation type to 1 (for AD) or 2 (for KMS) or 3 (for Token) or 0 (for all).
+
+Volume Licensing: Active Directory (AD) Activation Options:
+/ad-activation-online <Product Key> [Activation Object name]
+    Activate AD (Active Directory) forest with user-provided product key
+/ad-activation-get-iid <Product Key>
+    Display Installation ID for AD (Active Directory) forest
+/ad-activation-apply-cid <Product Key> <Confirmation ID> [Activation Object name]
+    Activate AD (Active Directory) forest with user-provided product key and Confirmation ID
+/ao-list 
+    Display Activation Objects in AD (Active Directory)
+/del-ao <Activation Object DN | Activation Object RDN>
+    Delete Activation Objects in AD (Active Directory) for user-provided Activation Object
+
+
+
+System check:
+Description: Windows(R) Operating System, TIMEBASED_EVAL channel
+BuildLabEx: 17133.1
+Architecture: x64
+PartialKey: M98W7
+Edition: EnterpriseNEval
+Status Licensed
+
+Starting activation at 24 May 2019 10:53:54...
+
+Installing key ...
+
+Error: option ipk needs <Product Key>
+Windows Software Licensing Management Tool
+Usage: slmgr.vbs [MachineName [User Password]] [<Option>]
+           MachineName: Name of remote machine (default is local machine)
+           User:        Account with required privilege on remote machine
+           Password:    password for the previous account
+
+Global Options:
+/ipk <Product Key>
+    Install product key (replaces existing key)
+/ato [Activation ID]
+    Activate Windows
+/dli [Activation ID | All]
+    Display license information (default: current license)
+/dlv [Activation ID | All]
+    Display detailed license information (default: current license)
+/xpr [Activation ID]
+    Expiration date for current license state
+
+Advanced Options:
+/cpky 
+    Clear product key from the registry (prevents disclosure attacks)
+/ilc <License file>
+    Install license
+/rilc 
+    Re-install system license files
+/rearm 
+    Reset the licensing status of the machine
+/rearm-app <Application ID>
+    Reset the licensing status of the given app
+/rearm-sku <Activation ID>
+    Reset the licensing status of the given sku
+/upk [Activation ID]
+    Uninstall product key
+
+/dti [Activation ID]
+    Display Installation ID for offline activation
+/atp <Confirmation ID> [Activation ID]
+    Activate product with user-provided Confirmation ID
+
+Volume Licensing: Key Management Service (KMS) Client Options:
+/skms <Name[:Port] | : port> [Activation ID]
+    Set the name and/or the port for the KMS computer this machine will use. IPv6 address must be specified in the format [hostname]:port
+/ckms [Activation ID]
+    Clear name of KMS computer used (sets the port to the default)
+/skms-domain <FQDN> [Activation ID]
+    Set the specific DNS domain in which all KMS SRV records can be found. This setting has no effect if the specific single KMS host is set via /skms option.
+/ckms-domain [Activation ID]
+    Clear the specific DNS domain in which all KMS SRV records can be found. The specific KMS host will be used if set via /skms. Otherwise default KMS auto-discovery will be used.
+/skhc 
+    Enable KMS host caching
+/ckhc 
+    Disable KMS host caching
+
+Volume Licensing: Token-based Activation Options:
+/lil 
+    List installed Token-based Activation Issuance Licenses
+/ril <ILID> <ILvID>
+    Remove installed Token-based Activation Issuance License
+/ltc 
+    List Token-based Activation Certificates
+/fta <Certificate Thumbprint> [<PIN>]
+    Force Token-based Activation
+
+Volume Licensing: Key Management Service (KMS) Options:
+/sprt <Port>
+    Set TCP port KMS will use to communicate with clients
+/sai <Activation Interval>
+    Set interval (minutes) for unactivated clients to attempt KMS connection. The activation interval must be between 15 minutes (min) and 30 days (max) although the default (2 hours) is recommended.
+/sri <Renewal Interval>
+    Set renewal interval (minutes) for activated clients to attempt KMS connection. The renewal interval must be between 15 minutes (min) and 30 days (max) although the default (7 days) is recommended.
+/sdns 
+    Enable DNS publishing by KMS (default)
+/cdns 
+    Disable DNS publishing by KMS
+/spri 
+    Set KMS priority to normal (default)
+/cpri 
+    Set KMS priority to low
+/act-type [Activation-Type] [Activation ID]
+    Set activation type to 1 (for AD) or 2 (for KMS) or 3 (for Token) or 0 (for all).
+
+Volume Licensing: Active Directory (AD) Activation Options:
+/ad-activation-online <Product Key> [Activation Object name]
+    Activate AD (Active Directory) forest with user-provided product key
+/ad-activation-get-iid <Product Key>
+    Display Installation ID for AD (Active Directory) forest
+/ad-activation-apply-cid <Product Key> <Confirmation ID> [Activation Object name]
+    Activate AD (Active Directory) forest with user-provided product key and Confirmation ID
+/ao-list 
+    Display Activation Objects in AD (Active Directory)
+/del-ao <Activation Object DN | Activation Object RDN>
+    Delete Activation Objects in AD (Active Directory) for user-provided Activation Object
+
+
+
+System check:
+Description: Windows(R) Operating System, TIMEBASED_EVAL channel
+BuildLabEx: 17133.1
+Architecture: x64
+PartialKey: M98W7
+Edition: EnterpriseNEval
+Status Licensed
+
+Starting activation at 24 May 2019 10:54:02...
+
+Installing key ...
+
+Error: option ipk needs <Product Key>
+Windows Software Licensing Management Tool
+Usage: slmgr.vbs [MachineName [User Password]] [<Option>]
+           MachineName: Name of remote machine (default is local machine)
+           User:        Account with required privilege on remote machine
+           Password:    password for the previous account
+
+Global Options:
+/ipk <Product Key>
+    Install product key (replaces existing key)
+/ato [Activation ID]
+    Activate Windows
+/dli [Activation ID | All]
+    Display license information (default: current license)
+/dlv [Activation ID | All]
+    Display detailed license information (default: current license)
+/xpr [Activation ID]
+    Expiration date for current license state
+
+Advanced Options:
+/cpky 
+    Clear product key from the registry (prevents disclosure attacks)
+/ilc <License file>
+    Install license
+/rilc 
+    Re-install system license files
+/rearm 
+    Reset the licensing status of the machine
+/rearm-app <Application ID>
+    Reset the licensing status of the given app
+/rearm-sku <Activation ID>
+    Reset the licensing status of the given sku
+/upk [Activation ID]
+    Uninstall product key
+
+/dti [Activation ID]
+    Display Installation ID for offline activation
+/atp <Confirmation ID> [Activation ID]
+    Activate product with user-provided Confirmation ID
+
+Volume Licensing: Key Management Service (KMS) Client Options:
+/skms <Name[:Port] | : port> [Activation ID]
+    Set the name and/or the port for the KMS computer this machine will use. IPv6 address must be specified in the format [hostname]:port
+/ckms [Activation ID]
+    Clear name of KMS computer used (sets the port to the default)
+/skms-domain <FQDN> [Activation ID]
+    Set the specific DNS domain in which all KMS SRV records can be found. This setting has no effect if the specific single KMS host is set via /skms option.
+/ckms-domain [Activation ID]
+    Clear the specific DNS domain in which all KMS SRV records can be found. The specific KMS host will be used if set via /skms. Otherwise default KMS auto-discovery will be used.
+/skhc 
+    Enable KMS host caching
+/ckhc 
+    Disable KMS host caching
+
+Volume Licensing: Token-based Activation Options:
+/lil 
+    List installed Token-based Activation Issuance Licenses
+/ril <ILID> <ILvID>
+    Remove installed Token-based Activation Issuance License
+/ltc 
+    List Token-based Activation Certificates
+/fta <Certificate Thumbprint> [<PIN>]
+    Force Token-based Activation
+
+Volume Licensing: Key Management Service (KMS) Options:
+/sprt <Port>
+    Set TCP port KMS will use to communicate with clients
+/sai <Activation Interval>
+    Set interval (minutes) for unactivated clients to attempt KMS connection. The activation interval must be between 15 minutes (min) and 30 days (max) although the default (2 hours) is recommended.
+/sri <Renewal Interval>
+    Set renewal interval (minutes) for activated clients to attempt KMS connection. The renewal interval must be between 15 minutes (min) and 30 days (max) although the default (7 days) is recommended.
+/sdns 
+    Enable DNS publishing by KMS (default)
+/cdns 
+    Disable DNS publishing by KMS
+/spri 
+    Set KMS priority to normal (default)
+/cpri 
+    Set KMS priority to low
+/act-type [Activation-Type] [Activation ID]
+    Set activation type to 1 (for AD) or 2 (for KMS) or 3 (for Token) or 0 (for all).
+
+Volume Licensing: Active Directory (AD) Activation Options:
+/ad-activation-online <Product Key> [Activation Object name]
+    Activate AD (Active Directory) forest with user-provided product key
+/ad-activation-get-iid <Product Key>
+    Display Installation ID for AD (Active Directory) forest
+/ad-activation-apply-cid <Product Key> <Confirmation ID> [Activation Object name]
+    Activate AD (Active Directory) forest with user-provided product key and Confirmation ID
+/ao-list 
+    Display Activation Objects in AD (Active Directory)
+/del-ao <Activation Object DN | Activation Object RDN>
+    Delete Activation Objects in AD (Active Directory) for user-provided Activation Object
+
+
+
+System check:
+Description: Windows(R) Operating System, TIMEBASED_EVAL channel
+BuildLabEx: 17133.1
+Architecture: x64
+PartialKey: YG9R6
+Edition: EnterpriseEval
+Status Licensed
+
+Starting activation at 24 May 2019 13:13:53...
+
+Installing key ...
+
+Error: option ipk needs <Product Key>
+Windows Software Licensing Management Tool
+Usage: slmgr.vbs [MachineName [User Password]] [<Option>]
+           MachineName: Name of remote machine (default is local machine)
+           User:        Account with required privilege on remote machine
+           Password:    password for the previous account
+
+Global Options:
+/ipk <Product Key>
+    Install product key (replaces existing key)
+/ato [Activation ID]
+    Activate Windows
+/dli [Activation ID | All]
+    Display license information (default: current license)
+/dlv [Activation ID | All]
+    Display detailed license information (default: current license)
+/xpr [Activation ID]
+    Expiration date for current license state
+
+Advanced Options:
+/cpky 
+    Clear product key from the registry (prevents disclosure attacks)
+/ilc <License file>
+    Install license
+/rilc 
+    Re-install system license files
+/rearm 
+    Reset the licensing status of the machine
+/rearm-app <Application ID>
+    Reset the licensing status of the given app
+/rearm-sku <Activation ID>
+    Reset the licensing status of the given sku
+/upk [Activation ID]
+    Uninstall product key
+
+/dti [Activation ID]
+    Display Installation ID for offline activation
+/atp <Confirmation ID> [Activation ID]
+    Activate product with user-provided Confirmation ID
+
+Volume Licensing: Key Management Service (KMS) Client Options:
+/skms <Name[:Port] | : port> [Activation ID]
+    Set the name and/or the port for the KMS computer this machine will use. IPv6 address must be specified in the format [hostname]:port
+/ckms [Activation ID]
+    Clear name of KMS computer used (sets the port to the default)
+/skms-domain <FQDN> [Activation ID]
+    Set the specific DNS domain in which all KMS SRV records can be found. This setting has no effect if the specific single KMS host is set via /skms option.
+/ckms-domain [Activation ID]
+    Clear the specific DNS domain in which all KMS SRV records can be found. The specific KMS host will be used if set via /skms. Otherwise default KMS auto-discovery will be used.
+/skhc 
+    Enable KMS host caching
+/ckhc 
+    Disable KMS host caching
+
+Volume Licensing: Token-based Activation Options:
+/lil 
+    List installed Token-based Activation Issuance Licenses
+/ril <ILID> <ILvID>
+    Remove installed Token-based Activation Issuance License
+/ltc 
+    List Token-based Activation Certificates
+/fta <Certificate Thumbprint> [<PIN>]
+    Force Token-based Activation
+
+Volume Licensing: Key Management Service (KMS) Options:
+/sprt <Port>
+    Set TCP port KMS will use to communicate with clients
+/sai <Activation Interval>
+    Set interval (minutes) for unactivated clients to attempt KMS connection. The activation interval must be between 15 minutes (min) and 30 days (max) although the default (2 hours) is recommended.
+/sri <Renewal Interval>
+    Set renewal interval (minutes) for activated clients to attempt KMS connection. The renewal interval must be between 15 minutes (min) and 30 days (max) although the default (7 days) is recommended.
+/sdns 
+    Enable DNS publishing by KMS (default)
+/cdns 
+    Disable DNS publishing by KMS
+/spri 
+    Set KMS priority to normal (default)
+/cpri 
+    Set KMS priority to low
+/act-type [Activation-Type] [Activation ID]
+    Set activation type to 1 (for AD) or 2 (for KMS) or 3 (for Token) or 0 (for all).
+
+Volume Licensing: Active Directory (AD) Activation Options:
+/ad-activation-online <Product Key> [Activation Object name]
+    Activate AD (Active Directory) forest with user-provided product key
+/ad-activation-get-iid <Product Key>
+    Display Installation ID for AD (Active Directory) forest
+/ad-activation-apply-cid <Product Key> <Confirmation ID> [Activation Object name]
+    Activate AD (Active Directory) forest with user-provided product key and Confirmation ID
+/ao-list 
+    Display Activation Objects in AD (Active Directory)
+/del-ao <Activation Object DN | Activation Object RDN>
+    Delete Activation Objects in AD (Active Directory) for user-provided Activation Object
+
+
+
+System check:
+Description: Windows(R) Operating System, TIMEBASED_EVAL channel
+BuildLabEx: 17133.1
+Architecture: x64
+PartialKey: YG9R6
+Edition: EnterpriseEval
+Status Licensed
+
+Starting activation at 24 May 2019 13:15:53...
+
+Installing key ...
+
+Error: option ipk needs <Product Key>
+Windows Software Licensing Management Tool
+Usage: slmgr.vbs [MachineName [User Password]] [<Option>]
+           MachineName: Name of remote machine (default is local machine)
+           User:        Account with required privilege on remote machine
+           Password:    password for the previous account
+
+Global Options:
+/ipk <Product Key>
+    Install product key (replaces existing key)
+/ato [Activation ID]
+    Activate Windows
+/dli [Activation ID | All]
+    Display license information (default: current license)
+/dlv [Activation ID | All]
+    Display detailed license information (default: current license)
+/xpr [Activation ID]
+    Expiration date for current license state
+
+Advanced Options:
+/cpky 
+    Clear product key from the registry (prevents disclosure attacks)
+/ilc <License file>
+    Install license
+/rilc 
+    Re-install system license files
+/rearm 
+    Reset the licensing status of the machine
+/rearm-app <Application ID>
+    Reset the licensing status of the given app
+/rearm-sku <Activation ID>
+    Reset the licensing status of the given sku
+/upk [Activation ID]
+    Uninstall product key
+
+/dti [Activation ID]
+    Display Installation ID for offline activation
+/atp <Confirmation ID> [Activation ID]
+    Activate product with user-provided Confirmation ID
+
+Volume Licensing: Key Management Service (KMS) Client Options:
+/skms <Name[:Port] | : port> [Activation ID]
+    Set the name and/or the port for the KMS computer this machine will use. IPv6 address must be specified in the format [hostname]:port
+/ckms [Activation ID]
+    Clear name of KMS computer used (sets the port to the default)
+/skms-domain <FQDN> [Activation ID]
+    Set the specific DNS domain in which all KMS SRV records can be found. This setting has no effect if the specific single KMS host is set via /skms option.
+/ckms-domain [Activation ID]
+    Clear the specific DNS domain in which all KMS SRV records can be found. The specific KMS host will be used if set via /skms. Otherwise default KMS auto-discovery will be used.
+/skhc 
+    Enable KMS host caching
+/ckhc 
+    Disable KMS host caching
+
+Volume Licensing: Token-based Activation Options:
+/lil 
+    List installed Token-based Activation Issuance Licenses
+/ril <ILID> <ILvID>
+    Remove installed Token-based Activation Issuance License
+/ltc 
+    List Token-based Activation Certificates
+/fta <Certificate Thumbprint> [<PIN>]
+    Force Token-based Activation
+
+Volume Licensing: Key Management Service (KMS) Options:
+/sprt <Port>
+    Set TCP port KMS will use to communicate with clients
+/sai <Activation Interval>
+    Set interval (minutes) for unactivated clients to attempt KMS connection. The activation interval must be between 15 minutes (min) and 30 days (max) although the default (2 hours) is recommended.
+/sri <Renewal Interval>
+    Set renewal interval (minutes) for activated clients to attempt KMS connection. The renewal interval must be between 15 minutes (min) and 30 days (max) although the default (7 days) is recommended.
+/sdns 
+    Enable DNS publishing by KMS (default)
+/cdns 
+    Disable DNS publishing by KMS
+/spri 
+    Set KMS priority to normal (default)
+/cpri 
+    Set KMS priority to low
+/act-type [Activation-Type] [Activation ID]
+    Set activation type to 1 (for AD) or 2 (for KMS) or 3 (for Token) or 0 (for all).
+
+Volume Licensing: Active Directory (AD) Activation Options:
+/ad-activation-online <Product Key> [Activation Object name]
+    Activate AD (Active Directory) forest with user-provided product key
+/ad-activation-get-iid <Product Key>
+    Display Installation ID for AD (Active Directory) forest
+/ad-activation-apply-cid <Product Key> <Confirmation ID> [Activation Object name]
+    Activate AD (Active Directory) forest with user-provided product key and Confirmation ID
+/ao-list 
+    Display Activation Objects in AD (Active Directory)
+/del-ao <Activation Object DN | Activation Object RDN>
+    Delete Activation Objects in AD (Active Directory) for user-provided Activation Object
+
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 09:37:38...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 09:38:48...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\11e62873-f90e-4d94-aa7c-927dde31c832.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 09:44:39...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 09:45:07...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\ac7d0541-ae38-48f4-affa-6439b03720a7.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 09:51:04...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 09:51:38...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\49d18edd-d761-4746-a0ec-b460293d4ef7.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 09:53:55...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 09:55:07...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\5228ef56-f146-4323-9ad2-2bd6a13fc633.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional [Start: 0]
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 09:53:33...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 09:54:21...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\88fc2dc8-ffed-4353-92fa-b0f09e19257e.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional [Start: 0]
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 09:55:56...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 09:42:15...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 09:56:16...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\5f1010ce-1408-4365-b214-0abb314928e5.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 09:42:32...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\649abe64-8f3a-489e-9e51-4ee5bc2eac17.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 09:57:29...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 09:57:51...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\e622010a-79f6-40d6-98f2-7f5cb6e687f4.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 09:58:34...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 09:58:54...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\c700071d-0990-4986-bb57-ea64e1cd7e93.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 03:02:19...
+
+Installing key ...
+
+
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 03:02:57...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\798db942-6027-48d0-bc2f-0aee66a218a2.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:00:13...
+
+Installing key ...
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:00:45...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\eabe7019-069d-4433-bf82-ed9524dda0bc.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 21 Agt 2019 20:05:50...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 21 Agt 2019 20:05:54...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 21 Agt 2019 20:06:10...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\e47f7369-c6a3-465c-b41a-a09e2d1b4e40.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 21 Agt 2019 20:06:12...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\bf7049a0-ddf6-4cc9-8c63-99bcb8b27499.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 21 Agt 2019 20:07:20...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 21 Agt 2019 20:08:25...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 11:08:09...
+
+Installing key ...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\8088b469-930e-4f89-8eab-210ec5f7cae5.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional [Start: 0]
+
+
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 11:08:26...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+Applying GenuineTicket.xml...
+
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 21 Agt 2019 20:08:52...
+
+Installing key ...
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\505c6349-8137-4c0c-9c2d-eb7095d7743a.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 21 Agt 2019 20:09:22...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\51c10772-cde7-4b86-b805-1f20bdd67ec4.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:11:53...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:11:28...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:12:40...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:12:31...
+
+Installing key ...
+Setting KMS Host IP to avoid DNS queries...
+
+
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\bdc20c10-f744-488f-a0c1-832b6d65a528.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional [Start: 0]
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:11:52...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\f9605b55-f166-4cf2-bd8e-87f5061de171.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:12:51...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\68d88842-8b12-4845-8701-f0ab17f4d0df.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:13:31...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:14:03...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:13:57...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\2dcd4da8-f84c-4435-a728-83ba4bc4ff48.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:14:19...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+Setting KMS Host IP to avoid DNS queries...
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:14:06...
+
+Installing key ...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\009c6de8-930c-4753-9f92-29307a8d4616.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+
+
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:15:00...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\45a3e95e-6a18-4cd5-aa62-a9fcf1e741f3.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional [Start: 0]
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:18:42...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:23:53...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:19:59...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\94cc4388-1879-49a1-8567-ea6dbbf110d8.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional [Start: 0]
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:25:07...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\c525c06d-a305-46bd-be62-5a02aeb6995a.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional [Start: 0]
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:20:49...
+
+Installing key ...
+
+
+
+
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:22:50...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\0960db66-13fc-46aa-9ffc-892f1cd7e085.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional [Start: 0]
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:23:22...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:23:54...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\227606a5-e8fb-4638-b84a-354304fca49b.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:24:10...
+
+Installing key ...
+
+
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:24:32...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\21f8a58e-ec12-4542-b28f-d980dc2ce7d4.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:27:51...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:27:56...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:28:28...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:25:06...
+
+Installing key ...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\8d56ec07-832b-4827-a890-06db8c9385ce.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:28:32...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\a6c9080f-ab70-4db8-8eb5-900362be71cb.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:25:50...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\d63d1eed-9c19-46c7-a035-c6dca867182d.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:36:41...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:37:08...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Generating ticket for KMS38
+
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:36:52...
+
+Installing key ...
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\6e59cddb-7f89-44ff-8a64-911823a62955.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:37:08...
+
+Installing key ...
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+
+
+
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:37:17...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:37:33...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\8e17eccc-fbf5-400c-95f5-92a2de97adfe.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\8f17c6ee-d2d6-464e-a902-059003133f54.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:41:13...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:38:15...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:38:40...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\949ea825-cd93-4fcd-a29b-f131fb3eda3c.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:41:50...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\ab052ecc-06e0-4169-86d2-37827787ed3e.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:42:40...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:42:27...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:40:04...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:42:57...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\75caeca5-58e9-4418-b00c-28430dc9d0d9.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:42:44...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Setting KMS Host IP to avoid DNS queries...
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\8955b390-a2e9-4a43-959f-4f3860972f4f.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:40:21...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\2d72bef1-c478-45e8-bff5-1f017b29e46d.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:42:06...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:42:25...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\02c21629-48db-4bcd-b9f2-b348f8ef1ea3.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Licensed
+
+Starting activation at 22 Agt 2019 10:46:01...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:45:59...
+
+Installing key ...
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Licensed
+
+Starting activation at 22 Agt 2019 10:46:23...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+
+
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\9b38c1a5-5f3f-447d-8720-72a72c4f61cb.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:43:27...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:46:19...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\74fb64a9-d494-4aea-bf2d-f91fbcf77798.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+Generating ticket for KMS38
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional [Start: 0]
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\347a8cd7-b87a-4179-a1d5-e71f3283a790.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+
+
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:52:09...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:46:47...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:52:30...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\147ee3fa-fe81-4356-aba6-357913c49695.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:47:04...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+
+
+Setting KMS Host IP to avoid DNS queries...
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:47:08...
+
+Installing key ...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\b9e9de1d-494c-4425-9162-f9ba849689dd.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:47:24...
+
+Installing key ...
+
+
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:47:27...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\38956f76-70ee-434a-b7bd-8ad1ec1fe3be.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:47:43...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Stopping wlidsvc...
+Setting KMS Host IP to avoid DNS queries...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\81987bbc-1f79-4c70-8423-f80560487211.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:49:27...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:49:44...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\e9a7bf50-2e93-4fe8-945c-5fd7e55174bc.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:49:50...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:49:45...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:50:10...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\88409108-aba2-414b-9012-825406e63721.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:50:24...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\091cd2cf-8025-449a-a44f-1816e0f11db2.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:53:38...
+
+Installing key ...
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 10:53:56...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Setting KMS Host IP to avoid DNS queries...
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\fad436d3-e051-4751-ad3a-25317648adff.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 12:02:07...
+
+Installing key ...
+
+Error: option ipk needs <Product Key>
+Windows Software Licensing Management Tool
+Usage: slmgr.vbs [MachineName [User Password]] [<Option>]
+           MachineName: Name of remote machine (default is local machine)
+           User:        Account with required privilege on remote machine
+           Password:    password for the previous account
+
+Global Options:
+/ipk <Product Key>
+    Install product key (replaces existing key)
+/ato [Activation ID]
+    Activate Windows
+/dli [Activation ID | All]
+    Display license information (default: current license)
+/dlv [Activation ID | All]
+    Display detailed license information (default: current license)
+/xpr [Activation ID]
+    Expiration date for current license state
+
+Advanced Options:
+/cpky 
+    Clear product key from the registry (prevents disclosure attacks)
+/ilc <License file>
+    Install license
+/rilc 
+    Re-install system license files
+/rearm 
+    Reset the licensing status of the machine
+/rearm-app <Application ID>
+    Reset the licensing status of the given app
+/rearm-sku <Activation ID>
+    Reset the licensing status of the given sku
+/upk [Activation ID]
+    Uninstall product key
+
+/dti [Activation ID]
+    Display Installation ID for offline activation
+/atp <Confirmation ID> [Activation ID]
+    Activate product with user-provided Confirmation ID
+
+Volume Licensing: Key Management Service (KMS) Client Options:
+/skms <Name[:Port] | : port> [Activation ID]
+    Set the name and/or the port for the KMS computer this machine will use. IPv6 address must be specified in the format [hostname]:port
+/ckms [Activation ID]
+    Clear name of KMS computer used (sets the port to the default)
+/skms-domain <FQDN> [Activation ID]
+    Set the specific DNS domain in which all KMS SRV records can be found. This setting has no effect if the specific single KMS host is set via /skms option.
+/ckms-domain [Activation ID]
+    Clear the specific DNS domain in which all KMS SRV records can be found. The specific KMS host will be used if set via /skms. Otherwise default KMS auto-discovery will be used.
+/skhc 
+    Enable KMS host caching
+/ckhc 
+    Disable KMS host caching
+
+Volume Licensing: Token-based Activation Options:
+/lil 
+    List installed Token-based Activation Issuance Licenses
+/ril <ILID> <ILvID>
+    Remove installed Token-based Activation Issuance License
+/ltc 
+    List Token-based Activation Certificates
+/fta <Certificate Thumbprint> [<PIN>]
+    Force Token-based Activation
+
+Volume Licensing: Key Management Service (KMS) Options:
+/sprt <Port>
+    Set TCP port KMS will use to communicate with clients
+/sai <Activation Interval>
+    Set interval (minutes) for unactivated clients to attempt KMS connection. The activation interval must be between 15 minutes (min) and 30 days (max) although the default (2 hours) is recommended.
+/sri <Renewal Interval>
+    Set renewal interval (minutes) for activated clients to attempt KMS connection. The renewal interval must be between 15 minutes (min) and 30 days (max) although the default (7 days) is recommended.
+/sdns 
+    Enable DNS publishing by KMS (default)
+/cdns 
+    Disable DNS publishing by KMS
+/spri 
+    Set KMS priority to normal (default)
+/cpri 
+    Set KMS priority to low
+/act-type [Activation-Type] [Activation ID]
+    Set activation type to 1 (for AD) or 2 (for KMS) or 3 (for Token) or 0 (for all).
+
+Volume Licensing: Active Directory (AD) Activation Options:
+/ad-activation-online <Product Key> [Activation Object name]
+    Activate AD (Active Directory) forest with user-provided product key
+/ad-activation-get-iid <Product Key>
+    Display Installation ID for AD (Active Directory) forest
+/ad-activation-apply-cid <Product Key> <Confirmation ID> [Activation Object name]
+    Activate AD (Active Directory) forest with user-provided product key and Confirmation ID
+/ao-list 
+    Display Activation Objects in AD (Active Directory)
+/del-ao <Activation Object DN | Activation Object RDN>
+    Delete Activation Objects in AD (Active Directory) for user-provided Activation Object
+
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 12:02:47...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Installed product key M7XTQ-FN8P6-TTKYV-9D4CC-J462D successfully.
+
+Setting KMS Host IP to avoid DNS queries...
+Key Management Service machine name set to 192.0.2.69:1833 successfully.
+
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\2f9f0006-4bfd-4545-8114-4c4e86b3373a.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional [Start: 0]
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 00:20:55...
+
+Installing key ...
+
+Error: option ipk needs <Product Key>
+Windows Software Licensing Management Tool
+Usage: slmgr.vbs [MachineName [User Password]] [<Option>]
+           MachineName: Name of remote machine (default is local machine)
+           User:        Account with required privilege on remote machine
+           Password:    password for the previous account
+
+Global Options:
+/ipk <Product Key>
+    Install product key (replaces existing key)
+/ato [Activation ID]
+    Activate Windows
+/dli [Activation ID | All]
+    Display license information (default: current license)
+/dlv [Activation ID | All]
+    Display detailed license information (default: current license)
+/xpr [Activation ID]
+    Expiration date for current license state
+
+Advanced Options:
+/cpky 
+    Clear product key from the registry (prevents disclosure attacks)
+/ilc <License file>
+    Install license
+/rilc 
+    Re-install system license files
+/rearm 
+    Reset the licensing status of the machine
+/rearm-app <Application ID>
+    Reset the licensing status of the given app
+/rearm-sku <Activation ID>
+    Reset the licensing status of the given sku
+/upk [Activation ID]
+    Uninstall product key
+
+/dti [Activation ID]
+    Display Installation ID for offline activation
+/atp <Confirmation ID> [Activation ID]
+    Activate product with user-provided Confirmation ID
+
+Volume Licensing: Key Management Service (KMS) Client Options:
+/skms <Name[:Port] | : port> [Activation ID]
+    Set the name and/or the port for the KMS computer this machine will use. IPv6 address must be specified in the format [hostname]:port
+/ckms [Activation ID]
+    Clear name of KMS computer used (sets the port to the default)
+/skms-domain <FQDN> [Activation ID]
+    Set the specific DNS domain in which all KMS SRV records can be found. This setting has no effect if the specific single KMS host is set via /skms option.
+/ckms-domain [Activation ID]
+    Clear the specific DNS domain in which all KMS SRV records can be found. The specific KMS host will be used if set via /skms. Otherwise default KMS auto-discovery will be used.
+/skhc 
+    Enable KMS host caching
+/ckhc 
+    Disable KMS host caching
+
+Volume Licensing: Token-based Activation Options:
+/lil 
+    List installed Token-based Activation Issuance Licenses
+/ril <ILID> <ILvID>
+    Remove installed Token-based Activation Issuance License
+/ltc 
+    List Token-based Activation Certificates
+/fta <Certificate Thumbprint> [<PIN>]
+    Force Token-based Activation
+
+Volume Licensing: Key Management Service (KMS) Options:
+/sprt <Port>
+    Set TCP port KMS will use to communicate with clients
+/sai <Activation Interval>
+    Set interval (minutes) for unactivated clients to attempt KMS connection. The activation interval must be between 15 minutes (min) and 30 days (max) although the default (2 hours) is recommended.
+/sri <Renewal Interval>
+    Set renewal interval (minutes) for activated clients to attempt KMS connection. The renewal interval must be between 15 minutes (min) and 30 days (max) although the default (7 days) is recommended.
+/sdns 
+    Enable DNS publishing by KMS (default)
+/cdns 
+    Disable DNS publishing by KMS
+/spri 
+    Set KMS priority to normal (default)
+/cpri 
+    Set KMS priority to low
+/act-type [Activation-Type] [Activation ID]
+    Set activation type to 1 (for AD) or 2 (for KMS) or 3 (for Token) or 0 (for all).
+
+Volume Licensing: Active Directory (AD) Activation Options:
+/ad-activation-online <Product Key> [Activation Object name]
+    Activate AD (Active Directory) forest with user-provided product key
+/ad-activation-get-iid <Product Key>
+    Display Installation ID for AD (Active Directory) forest
+/ad-activation-apply-cid <Product Key> <Confirmation ID> [Activation Object name]
+    Activate AD (Active Directory) forest with user-provided product key and Confirmation ID
+/ao-list 
+    Display Activation Objects in AD (Active Directory)
+/del-ao <Activation Object DN | Activation Object RDN>
+    Delete Activation Objects in AD (Active Directory) for user-provided Activation Object
+
+
+
+System check:
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+BuildLabEx: 17763.678
+Architecture: x64
+PartialKey: J462D
+Edition: EnterpriseS
+Status Notification
+
+Starting activation at 22 Agt 2019 00:21:14...
+
+Installing key M7XTQ-FN8P6-TTKYV-9D4CC-J462D...
+Installed product key M7XTQ-FN8P6-TTKYV-9D4CC-J462D successfully.
+
+Setting KMS Host IP to avoid DNS queries...
+Key Management Service machine name set to 192.0.2.69:1833 successfully.
+
+Generating ticket for KMS38
+
+Applying GenuineTicket.xml...
+
+Done.
+Converted license Microsoft.Windows.125.X21-83261_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\0f5d16d8-fc30-4eef-a467-960b9dbe0cbb.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+Ticket apply successful.
+
+WU is enabled: MANUAL Functional
+
+ClipSVC is enabled: MANUAL Functional [Start: 0]
+
+wlidsvc is disabled...
+Setting wlidsvc to auto...
+Starting wlidsvc...
+
+ERROR: Service Start failed: Service Disabled [Start: 14]
+
+sppsvc is enabled: AUTO Functional
+
+Stopping wlidsvc...
+Service stopped (or already not running).
+
+Setting wlidsvc back to disabled...
+
+Successfully activated EnterpriseS!
